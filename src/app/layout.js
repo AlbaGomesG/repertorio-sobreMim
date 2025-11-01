@@ -8,11 +8,11 @@ const font = Roboto ({
 });
 
 export const metadata = {
-    title: "Scene",
+    title: "Sobre Mim",
     icons: {
-    icon: "/icons/favicon.ico",
+    icon: "/icons/icons.png",
   },
-    description: "Projeto de front end com Next.js sobre filmes para estudo",
+    description: "Projeto de front end com Next.js para exibir um currículo profissional de forma elegante e responsiva.",
 
 };
 
