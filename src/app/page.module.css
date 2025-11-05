@@ -33,6 +33,18 @@
   transform: scale(1.05);
 }
 
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1.2rem 0;
+  padding: 1rem;
+  gap: 5rem;
+  background: rgba(40, 9, 67, 0.05);
+  border-radius: 12px;
+}
+
 .contentInformation {
   display: flex;
   flex-direction: column;
@@ -41,14 +53,31 @@
 }
 
 .informationContent {
+  display: flex;
+  flex-direction: column;
   background: rgba(255, 255, 255, 0.8);
   padding: 1.5rem;
   border-radius: 12px;
+  gap: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
 }
 
 .informationContent:hover {
+  transform: translateY(-2px);
+}
+
+.skillsInformation {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.skillsInformation:hover {
   transform: translateY(-2px);
 }
 
