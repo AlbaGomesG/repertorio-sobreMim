@@ -66,7 +66,7 @@ export default function Home() {
             <h2 className={styles.title}>🔗 Projetos Práticos</h2>
             <p className={styles.information}><strong className={styles.bold}>🎬 Scene</strong> O Scene é uma plataforma web que tem como público alvo as pessoas apaixonadas por filmes - um espaço para explorar, descobrir e se encantar com filmes de diversos gêneros.</p>
             <Link href="https://github.com/AlbaGomesG/scene_projectFront" className={styles.link}>🔗 Ver Projeto</Link>
-            <p className={styles.information}><strong>👽 Rick and Morty</strong>Esse projeto é uma plataforma web dedicada aos fãs do universo Rick and Morty - através do consumo da API oficial da série, o projeto permite descobrir informações detalhadas sobre cada personagem.</p>
+            <p className={styles.information}><strong>👽 Rick and Morty</strong> Esse projeto é uma plataforma web dedicada aos fãs do universo Rick and Morty - através do consumo da API oficial da série, o projeto permite descobrir informações detalhadas sobre cada personagem.</p>
             <Link href="https://rickandmorty-api-ten.vercel.app/home" className={styles.link}>🔗 Ver Projeto</Link>
           </div>
           <div className={styles.informationContent}>
