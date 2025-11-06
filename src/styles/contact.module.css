@@ -8,6 +8,7 @@
   box-shadow: 0 2px 8px rgba(40, 9, 67, 0.08);
   transition: all 0.3s ease;
   border: 1px solid rgba(40, 9, 67, 0.1);
+  text-decoration: none;
 }
 
 .container:hover {

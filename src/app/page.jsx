@@ -27,14 +27,14 @@ export default function Home() {
           </div>
           <div className={styles.informationContent}>
             <h2 className={styles.title}>🎓 Formação</h2>
-            <p className={styles.informationBold}>Curso Técnico em Desenvolvimento de Sistemas no SENAI</p>
+            <p className={styles.informationBold}>Curso Técnico em Desenvolvimento de Sistemas no SENAI Valinhos</p>
             <p className={styles.information}> 📅 Conclusão prevista: Dezembro/2025</p>
           </div>
           <div className={styles.informationContent}>
             <h2 className={styles.title}>💻 Habilidades Técnicas</h2>
             <div className={styles.skillsInformation}>
               <h3 className={styles.titleSkills}>🌆 Front-End</h3>
-              <p className={styles.information}><strong className={styles.bold}>Linguagens e Tecnologias:</strong> HTML5, CSS3, JavaScript, XML</p>
+              <p className={styles.information}><strong className={styles.bold}>Linguagens e Tecnologias:</strong> HTML5, CSS3, JavaScript</p>
               <p className={styles.information}><strong className={styles.bold}>Frameworks e Bibliotecas:</strong> React, Next.js, React Native, Expo Go</p>
               <p className={styles.information}><strong className={styles.bold}>Desenvolvimento Web e Mobile:</strong> Web Apps, Responsividade, Consumo de API (Geolocation, Câmera)</p>
               <p className={styles.information}><strong className={styles.bold}>Outros Conceitos:</strong> UX/UI Design, Acessibilidade</p>
